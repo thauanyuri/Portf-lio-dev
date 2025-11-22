@@ -1,29 +1,66 @@
 header{
+  justify-content: center;
   background-image:url(../assets/image/Background_Intro.png);
   background-size: cover;
   padding: 120px 163px 183px;
   border-spacing: 1/1;
+  figure{
+    max-width: 680px;
+    
+  }
   .foto{
-    border: solid red;
+    justify-self: center;
+    position: relative;
+    border: 5px solid var(--red);
     border-radius: 50%;
     object-fit: cover;
     width: 100px;
     padding: 5px;
   }
-  .tag_foto{
+  .tag_foto{ 
+    justify-self: center;              
     position: relative;
-    left: 65px;
+    left: 33px;
     bottom: 29px;
     height: 30px;
     object-fit: contain;
   }
   figcaption{
+    
     h1{
-      font: ;
+      padding-top: 56px;
+      justify-self: center;
+      color: var(--gray-200);
+    }
+    span{
+      color: var(--red);
+    }
+    h2{
+      padding-block: 8px 20px;
+      justify-self: center;
+      color: var(--gray-100);
+
+    }
+    p{
+      height: 40px;
+      justify-self: center;
+      color: var(--gray-300);
+      padding-bottom: 80px;
     }
   }
-
-
-}
-
  
+  #secondary{
+    max-height: 40px;    
+    a{
+     place-self: center;
+      width: 114px;
+      text-decoration: none;
+      color: var(--gray-200);
+    }
+    img{
+      object-fit: contain;
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
