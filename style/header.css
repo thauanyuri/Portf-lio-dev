@@ -1,0 +1,29 @@
+header{
+  background-image:url(../assets/image/Background_Intro.png);
+  background-size: cover;
+  padding: 120px 163px 183px;
+  border-spacing: 1/1;
+  .foto{
+    border: solid red;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100px;
+    padding: 5px;
+  }
+  .tag_foto{
+    position: relative;
+    left: 65px;
+    bottom: 29px;
+    height: 30px;
+    object-fit: contain;
+  }
+  figcaption{
+    h1{
+      font: ;
+    }
+  }
+
+
+}
+
+ 

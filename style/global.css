@@ -19,7 +19,7 @@
 --gray-500:#16181D;
 --gray-600:#0D0E11;
   /*fonte - Asap*/
-  --font-family:'Asap' sans-serif;
+  --font-family:'Asap', sans-serif;
   --title-lg:700 56px/120% var(--font-family);
   --title-md:700 24px/120% var(--font-family);
   --title-sm:700 16px/120% var(--font-family);
@@ -32,12 +32,17 @@
   --text-sm-pro:400 14px/140% var(--font-family3);
 }
 .container{
-  width: 1280px;
-  padding: 32px;
-  margin: auto;
+  display: grid;
+}
+img {
+  height: 100%;
 }
 
 body{
-  font: inherit;
+  font: var(--text-md-pro);
+  color:var(--gray-100);
+  background-color: var(--gray-500);
+  height: 100dvh;
+  padding: 40px 20px;
 }
 

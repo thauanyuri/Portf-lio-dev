@@ -1,0 +1,24 @@
+.grid{
+  display: grid;
+}
+.grid-auto-flow{
+  grid-auto-flow: column;
+}
+.text-lg{
+  font: var(--title-lg);
+}
+.text-md{
+  font: var(--title-md);
+}
+.text-sm{
+  font:var(--title-sm);
+}
+.text-subtitle{
+  font: var(--subtitle);
+}
+.text-md-pro{
+  font: var(--title-md-pro);
+}
+.text-sm-pro{
+  font: var(--title-sm-pro);
+}
