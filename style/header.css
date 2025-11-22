@@ -50,17 +50,24 @@ header{
   }
  
   #secondary{
-    max-height: 40px;    
     a{
-     place-self: center;
-      width: 114px;
-      text-decoration: none;
       color: var(--gray-200);
+      text-decoration: none;
     }
     img{
-      object-fit: contain;
+      object-fit: cover;
       width: 24px;
       height: 24px;
+      
+    }
+    .content-tag {
+      display: inline-block;
+      background-color: var(--gray-400);
+      border-radius: 10px;
+      font: var(--gray-200);
+      width: 138px;
+      height: 40px; 
+      padding: 8px 16px;
     }
   }
 }
