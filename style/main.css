@@ -1,0 +1,30 @@
+main{
+  border: solid;
+  padding: 72px 120px 144px;
+
+  #title_destaque{
+    
+    justify-content: center;
+    gap: 8px;
+    
+    h2{
+      position: relative;
+      justify-self: center;
+      color: var(--red);
+    }
+    h3{
+      color: var(--gray-100);
+      padding-bottom: 56px;
+    }
+  }
+
+  #card_destaque{
+    
+
+    figure img{
+      border: red solid 5px;
+      width: 320px;
+      height: 280px;
+    }
+  }  
+}

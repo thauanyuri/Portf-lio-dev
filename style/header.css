@@ -1,14 +1,11 @@
 header{
-  justify-content: center;
   background-image:url(../assets/image/Background_Intro.png);
-  background-size: cover;
-  width: 1040px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 120px 163px 183px;
-  border-spacing: 1/1;
-  figure{
-    max-width: 680px;
-    
-  }
+  
+
   .foto{
     justify-self: center;
     position: relative;
@@ -44,7 +41,8 @@ header{
     }
     p{
       height: 40px;
-      /* justify-self: center; */
+      max-width: 680px;
+      justify-self: center;
       color: var(--gray-300);
       padding-bottom: 80px;
     }
@@ -52,9 +50,9 @@ header{
  
  #secondary{
    position: relative;
+   gap: 16px;
   
    a{
-     /* font: var(--text-md-pro); */
       color: var(--gray-200);
       text-decoration: none;      
     }
@@ -65,7 +63,6 @@ header{
     }
     span{
       position: absolute;
-      font: var(--text-md-pro);
       padding-left: 8px;
       align-self: center;
       
