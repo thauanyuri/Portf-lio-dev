@@ -2,6 +2,7 @@ header{
   justify-content: center;
   background-image:url(../assets/image/Background_Intro.png);
   background-size: cover;
+  width: 1040px;
   padding: 120px 163px 183px;
   border-spacing: 1/1;
   figure{
@@ -43,31 +44,46 @@ header{
     }
     p{
       height: 40px;
-      justify-self: center;
+      /* justify-self: center; */
       color: var(--gray-300);
       padding-bottom: 80px;
     }
   }
  
-  #secondary{
-    a{
+ #secondary{
+   position: relative;
+  
+   a{
+     /* font: var(--text-md-pro); */
       color: var(--gray-200);
-      text-decoration: none;
+      text-decoration: none;      
     }
     img{
-      object-fit: cover;
-      width: 24px;
-      height: 24px;
-      
+      object-fit: contain;
+      width: 20px;
+      height: 20px;
     }
+    span{
+      position: absolute;
+      font: var(--text-md-pro);
+      padding-left: 8px;
+      align-self: center;
+      
+      
+
+      }
     .content-tag {
       display: inline-block;
       background-color: var(--gray-400);
-      border-radius: 10px;
-      font: var(--gray-200);
-      width: 138px;
+      border-radius: 50px;
+      width: 114px;
       height: 40px; 
       padding: 8px 16px;
     }
   }
+}
+#seta {
+  align-items: center;
+  justify-content: center;
+  padding-block: 89px 57px;
 }
