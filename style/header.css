@@ -3,12 +3,9 @@ header{
   background-size: 1366px, 750px;
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: 120px;
   
-  
-  /* #pading{
-    padding: 120px 163px 183px;
-    
-  }   */
+
   
   
 
@@ -36,7 +33,7 @@ header{
       justify-self: center;
       color: var(--gray-200);
     }
-    span{
+    .nome{
       
       color: var(--red);
       letter-spacing: 1px;
@@ -52,14 +49,15 @@ header{
       max-width: 680px;
       justify-self: center;
       color: var(--gray-300);
-      /* padding-bottom: 80px; */
     }
   }
  
  #secondary{
+   
    gap: 16px;
    padding-block: 80px 74px;
    justify-self: center;
+   align-self: center;
    width: 754px;
   
    a{
@@ -73,14 +71,11 @@ header{
 
     img{
       object-fit: contain;
-      width: 20px;
-      height: 20px;
+      padding-right: 8px;
     }
 
     span{
       position: absolute;
-      padding-left: 8px;
-      align-self: center;
       }
 
     .content-tag {
@@ -99,9 +94,4 @@ header{
   align-items: center;
   justify-self: center;
   width: 32px;
- 
-  /* &:hover{
-    color: aqua;
-  } */
-
 }
