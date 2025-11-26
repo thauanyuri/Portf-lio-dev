@@ -1,5 +1,6 @@
 main{
- 
+  background-color: var(--gray-500);
+  height: auto; 
   padding: 72px 120px 144px;
 
   #title_destaque{
@@ -8,7 +9,7 @@ main{
     gap: 8px;
     
     h2{
-      position: relative;
+      letter-spacing: 1px;
       justify-self: center;
       color: var(--red);
     }
@@ -21,8 +22,7 @@ main{
   #card_destaque{
     position: relative;
     gap: 24px;
-    justify-content: center;
-    align-items: center;
+    justify-self: center;
 
     figure{
      padding: 12px 12px 17px;
@@ -36,7 +36,7 @@ main{
        object-fit: cover;
        border-radius: 8px;
        width: 306px;
-        height: 156px;
+       height: 156px;
       } 
 
       figcaption{
@@ -56,6 +56,5 @@ main{
         }
       }
     }
-
   }  
 }

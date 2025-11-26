@@ -1,10 +1,14 @@
 header{
   background-image:url(../assets/image/Background_Intro.png);
-  background-size: contain;
+  background-size: 1366px, 750px;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 120px 163px 183px;
   
+  
+  /* #pading{
+    padding: 120px 163px 183px;
+    
+  }   */
   
   
 
@@ -33,7 +37,9 @@ header{
       color: var(--gray-200);
     }
     span{
+      
       color: var(--red);
+      letter-spacing: 1px;
     }
     h2{
       padding-block: 8px 20px;
@@ -51,9 +57,10 @@ header{
   }
  
  #secondary{
-   position: relative;
    gap: 16px;
    padding-block: 80px 74px;
+   justify-self: center;
+   width: 754px;
   
    a{
      text-decoration: none; 
@@ -93,8 +100,8 @@ header{
   justify-self: center;
   width: 32px;
  
-  &:hover{
+  /* &:hover{
     color: aqua;
-  }
+  } */
 
 }

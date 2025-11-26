@@ -1,0 +1,44 @@
+aside{
+  
+  justify-content: center;
+  background-color: var(--gray-600);
+  height: 480px;
+  padding: 88px 120px 120px;
+  
+  #title_app{
+    justify-content: center;
+    
+    h2{
+      letter-spacing: 1px;
+      color: var(--red);
+      justify-self: center;
+    }
+    h3{
+      
+      padding-block: 8px 56px;
+    }
+  }
+
+  #app{
+    gap: 24px;
+    
+    img{
+      object-fit: contain;
+      width: 48px;
+      height: 48px;
+
+    }
+    .card_app{
+      padding: 20px;
+      border-radius: 12px;
+      border: 3px solid var(--gray-500);
+    }
+    figcaption{
+      width: 240px;
+      
+      h4{
+       padding-block: 20px 8px;
+      }
+    }
+  }
+}
