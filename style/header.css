@@ -5,6 +5,8 @@ header{
   background-repeat: no-repeat;
   padding: 120px 163px 183px;
   
+  
+  
 
   .foto{
     justify-self: center;
@@ -44,31 +46,36 @@ header{
       max-width: 680px;
       justify-self: center;
       color: var(--gray-300);
-      padding-bottom: 80px;
+      /* padding-bottom: 80px; */
     }
   }
  
  #secondary{
    position: relative;
    gap: 16px;
+   padding-block: 80px 74px;
   
    a{
-      color: var(--gray-200);
-      text-decoration: none;      
+     text-decoration: none; 
+     color: var(--gray-200);
+
+     &:hover{
+      color: var(--blue);
+     }
     }
+
     img{
       object-fit: contain;
       width: 20px;
       height: 20px;
     }
+
     span{
       position: absolute;
       padding-left: 8px;
       align-self: center;
-      
-      
-
       }
+
     .content-tag {
       display: inline-block;
       background-color: var(--gray-400);
@@ -79,8 +86,15 @@ header{
     }
   }
 }
+
 #seta {
+  object-fit: cover;
   align-items: center;
-  justify-content: center;
-  padding-block: 89px 57px;
+  justify-self: center;
+  width: 32px;
+ 
+  &:hover{
+    color: aqua;
+  }
+
 }

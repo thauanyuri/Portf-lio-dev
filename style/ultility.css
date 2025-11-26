@@ -7,6 +7,7 @@
 .grid-template-columns{
   grid-template-columns: 1fr 1fr;
 }
+ /*fonte - Asap*/
 .text-lg{
   font: var(--title-lg);
 }
@@ -16,12 +17,15 @@
 .text-sm{
   font:var(--title-sm);
 }
+/*fonte - Iconsolata*/
 .text-subtitle{
   font: var(--subtitle);
 }
+/*maven-pro*/
 .text-md-pro{
-  font: var(--title-md-pro);
+  font: var(--text-md-pro);
 }
 .text-sm-pro{
-  font: var(--title-sm-pro);
+  font: var(--text-sm-pro);
 }
+

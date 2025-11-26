@@ -1,9 +1,9 @@
 main{
-  border: solid;
+ 
   padding: 72px 120px 144px;
 
   #title_destaque{
-    
+    position: relative;
     justify-content: center;
     gap: 8px;
     
@@ -19,12 +19,43 @@ main{
   }
 
   #card_destaque{
-    
+    position: relative;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
 
-    figure img{
-      border: red solid 5px;
-      width: 320px;
-      height: 280px;
+    figure{
+     padding: 12px 12px 17px;
+     background-color: var(--gray-400);
+     border-radius: 12px;
+     width: 330px;
+     height: 280px;
+     
+     
+     img{
+       object-fit: cover;
+       border-radius: 8px;
+       width: 306px;
+        height: 156px;
+      } 
+
+      figcaption{
+       width: 306px;
+      }
+
+      h4{
+        padding-block: 24px 8px;
+      }
+
+      a{
+        text-decoration: none;
+        color: var(--gray-100);
+        
+        &:hover{
+          color: var(--blue);
+        }
+      }
     }
+
   }  
 }
