@@ -1,9 +1,8 @@
 header{
   background-image:url(../assets/image/Background_Intro.png);
-  background-size: 1366px, 750px;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding-top: 120px;
+  background-size: cover;
+  background-repeat: round;
+  padding: 120px 163px 94px;
   
 
   
