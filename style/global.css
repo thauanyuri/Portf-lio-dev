@@ -42,15 +42,13 @@ body{
   
   color:var(--gray-100);
   background-color: var(--gray-500);
-  min-height: 100vh;
   display: grid;
   justify-self: center;
-  align-self: center;
-
-  /* width: 200px; */
-  
-  
+  align-self: center;  
+  max-width: 80%;
+  min-height: 100vdh;
 }
+
 h1, h2, h3, h4{
   font-style: inherit;
 }
